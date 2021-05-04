@@ -1,9 +1,9 @@
 [Unit]
 # Auto-generated, DO NOT EDIT
 Description=Service for snap application lxd.activate
-Requires=snap-lxd-19188.mount
+Requires=snap-lxd-19647.mount
 Wants=network.target
-After=snap-lxd-19188.mount network.target snapd.apparmor.service
+After=snap-lxd-19647.mount network.target snapd.apparmor.service
 X-Snappy=yes
 
 [Service]
@@ -11,9 +11,10 @@ EnvironmentFile=-/etc/environment
 ExecStart=/usr/bin/snap run lxd.activate
 SyslogIdentifier=lxd.activate
 Restart=no
-WorkingDirectory=/var/snap/lxd/19188
+WorkingDirectory=/var/snap/lxd/19647
 TimeoutStopSec=30
 Type=oneshot
+Delegate=true
 
 [Install]
 WantedBy=multi-user.target
