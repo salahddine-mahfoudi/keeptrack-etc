@@ -31,3 +31,4 @@ systemd-coredump:!!:18657::::::
 salah:$6$s1jsW20lXvo2ZTl0$f5UhT3XI0o4K7H1ZK8n1aJcqmKkrtodAYs9b24mOS2t1IwbwlE6DbtXHtoquV57eNSCre6EPJoxSD0argtxjT0:18657:0:99999:7:::
 lxd:!:18657::::::
 sshd:*:18658:0:99999:7:::
+dhcpd:*:18751:0:99999:7:::

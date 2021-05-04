@@ -2,7 +2,7 @@ root:x:0:
 daemon:x:1:
 bin:x:2:
 sys:x:3:
-adm:x:4:syslog
+adm:x:4:syslog,salah
 tty:x:5:
 disk:x:6:
 lp:x:7:
@@ -15,12 +15,12 @@ kmem:x:15:
 dialout:x:20:
 fax:x:21:
 voice:x:22:
-cdrom:x:24:
+cdrom:x:24:salah
 floppy:x:25:
 tape:x:26:
-sudo:x:27:
+sudo:x:27:salah
 audio:x:29:
-dip:x:30:
+dip:x:30:salah
 www-data:x:33:
 backup:x:34:
 operator:x:37:
@@ -32,7 +32,7 @@ shadow:x:42:
 utmp:x:43:
 video:x:44:
 sasl:x:45:
-plugdev:x:46:
+plugdev:x:46:salah
 staff:x:50:
 games:x:60:
 users:x:100:
@@ -52,5 +52,6 @@ uuidd:x:112:
 tcpdump:x:113:
 ssh:x:114:
 landscape:x:115:
-lxd:x:116:
+lxd:x:116:salah
 systemd-coredump:x:999:
+salah:x:1000:

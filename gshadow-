@@ -2,7 +2,7 @@ root:*::
 daemon:*::
 bin:*::
 sys:*::
-adm:*::syslog
+adm:*::syslog,salah
 tty:*::
 disk:*::
 lp:*::
@@ -15,12 +15,12 @@ kmem:*::
 dialout:*::
 fax:*::
 voice:*::
-cdrom:*::
+cdrom:*::salah
 floppy:*::
 tape:*::
-sudo:*::
+sudo:*::salah
 audio:*::
-dip:*::
+dip:*::salah
 www-data:*::
 backup:*::
 operator:*::
@@ -32,7 +32,7 @@ shadow:*::
 utmp:*::
 video:*::
 sasl:*::
-plugdev:*::
+plugdev:*::salah
 staff:*::
 games:*::
 users:*::
@@ -52,5 +52,6 @@ uuidd:!::
 tcpdump:!::
 ssh:!::
 landscape:!::
-lxd:!::
+lxd:!::salah
 systemd-coredump:!!::
+salah:!::

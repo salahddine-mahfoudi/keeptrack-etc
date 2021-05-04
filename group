@@ -55,3 +55,4 @@ landscape:x:115:
 lxd:x:116:salah
 systemd-coredump:x:999:
 salah:x:1000:
+dhcpd:x:117:
